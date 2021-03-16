@@ -12,6 +12,8 @@ Then use this tool: sudo _hide
 
 to make admin invisible. 
 
+REMEMBER TO Setup Admin's password, or you won't use the tool.
+
 
 Some switches are available: [_hide|_unhide|_transform|_restore]
 
