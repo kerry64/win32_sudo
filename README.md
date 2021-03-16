@@ -23,3 +23,7 @@ _transform, _restore are to make current user admin or restore.
 
 
 Make Windows Clean!
+
+
+
+Thanks to: https://gist.github.com/liyafe1997/e036a7c3d4fb3903d567ec6d62c324ef
