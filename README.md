@@ -13,7 +13,7 @@ Then use this tool: sudo _hide
 to make admin invisible. 
 
 
-Some switches is available: [_hide|_unhide|_transform|_restore]
+Some switches are available: [_hide|_unhide|_transform|_restore]
 
 
 _hide, _unhide are to control the visibility of admin;
