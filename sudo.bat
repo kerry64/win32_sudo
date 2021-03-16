@@ -21,6 +21,8 @@ For cmd.exe, the special characters that require quotes are:
      <space>
      &()[]{}^=;!'+,`~
 
+For cmd.exe, don't setup any autoruns according to "cmd/?"
+
 
 :entry
 @echo off&setlocal enabledelayedexpansion
@@ -46,7 +48,7 @@ goto:end
 :dosth
 set pwwd_$UD0=!pwwd_$UD0:^"=!
 if "!control_$UD0!"=="yes" cd /d "!tmp!" & set args_$UD0=!magic_12byte! reg.exe import !hide_$UD1!.reg
-start /min powershell -Command "Start-Process cmd -Verb RunAs -WindowStyle Minimized -ArgumentList '/c cd /d !pwwd_$UD0!&&start !args_$UD0:~13!'"
+start /min powershell -Command "Start-Process cmd -Verb RunAs -WindowStyle Minimized -ArgumentList '/d /c cd /d !pwwd_$UD0!&&start !args_$UD0:~13!'"
 endlocal
 goto:end
 
