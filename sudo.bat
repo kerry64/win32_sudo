@@ -30,7 +30,7 @@ For cmd.exe, don't setup any autoruns according to "cmd/?"
 set admin_name=admin
 set magic_12byte=_To_Execute_
 set tmp_prefix=sudo_neverconflict
-
+rem For code readers: please remove all '_$UD0' to make the code clear
 set args_$UD0=%*
 set args_$UD0=!args_$UD0:^"=^\^"!
 set "cleaner_$UD0=cd /d "!tmp:~!"^&del /f /s /q !tmp_prefix!_*.tmp.reg ^>nul 2^>nul"
