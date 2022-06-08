@@ -22,7 +22,7 @@ For cmd.exe, the special characters that require quotes are:
      &()[]{}^=;!'+,`~
 
 For cmd.exe, don't setup any autoruns according to "cmd/?"
-
+. this is a fatal security problem
 
 :entry
 @echo off&setlocal enabledelayedexpansion
