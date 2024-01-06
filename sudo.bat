@@ -67,3 +67,4 @@ goto:action
 
 :end
 endlocal
+goto:eof
